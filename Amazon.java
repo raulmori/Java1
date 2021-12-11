@@ -15,7 +15,7 @@ public class Amazon
 		
 		String query = IO.readString();
 		
-		for( int i = 0; i < 3; i++ )
+		for( int i = 0; i < 3; i++ )					//Condition Statement
 		{
 			if( bookshelf[i].getTitle().equals( query ) )
 			{
