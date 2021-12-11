@@ -1,3 +1,5 @@
+//The following code stores 3 books in an array. Then it prints out those 3 books using a "for" Loop
+
 public class Amazon
 {
 	public static void main(String[] args)
