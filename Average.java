@@ -10,15 +10,17 @@ public class Average
 		//5) output total / number of values
 		
 		System.out.print("Enter a positive value, negative to exit:");
-		double currentValue = IO.readDouble();
-		double total = 0; // For storing the running total
 		
-		int numEntries = 0;
+		double currentValue = IO.readDouble();		//Variable
+		double total = 0;				 // Variable for storing the running total
+		
+		int numEntries = 0;				//This is the Main Variable that we will use
 		
 		while( currentValue >= 0 )
 		{
 			total = total + currentValue;
 			numEntries = numEntries + 1;
+			
 			// SAME AS: total += currentValue;
 			System.out.println("\tCurrent Total: " + total);
 			System.out.println("\tCurrent Average: " + (total/numEntries));
